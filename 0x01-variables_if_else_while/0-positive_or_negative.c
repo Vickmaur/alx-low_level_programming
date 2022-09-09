@@ -1,10 +1,9 @@
-#include <stdlib>
 #include <time.h>
 #include <stdio.h>
 
 /**
 * main - prints if the number is positive, negativ* e or zero
-* 
+*
 * Description: using the main function
 * this program prints "Programming is positive, ze* ro or negative
 * Return: 0 means success
