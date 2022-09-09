@@ -1,19 +1,19 @@
-#include <stdlib.h>
+#include <stdlib>
 #include <time.h>
 #include <stdio.h>
 
 /**
-* main - prints if the number is positive, zero or* negative
-*
+* main - prints if the number is positive, negativ* e or zero
+* 
 * Description: using the main function
-* this program prints "Program is positive, zero o* or negative
-* Return: 0
+* this program prints "Programming is positive, ze* ro or negative
+* Return: 0 means success
 */
 int main(void)
 {
 int n;
 
-strand(time(0));
+srand(time(0));
 n = rand() - RAND_MAX / 2;
   /* your code goes there */
 if (n > 0)
