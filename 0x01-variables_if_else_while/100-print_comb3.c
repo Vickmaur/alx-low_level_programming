@@ -1,13 +1,13 @@
 #include <stdio.h> 
   
- /** 
+main/** 
    * main - Prints combination of numbers 
    * 
    * Return: Always (Success) 
    */ 
- int main(void) 
- { 
-         int c, i; 
+int main(void)
+{
+	int c, i; 
   
          for (c = '0'; c <= '9'; c++) 
          { 
@@ -26,9 +26,9 @@
                          } 
                  } 
          } 
-  
-         putchar('\n'); 
+
+	 putchar('\n'); 
   
          return (0); 
- }
+}
 
