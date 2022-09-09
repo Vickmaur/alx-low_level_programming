@@ -5,7 +5,7 @@
  *
  * Return: Always (success)
  */
-int main (void)
+int main(void)
 {
 	int c, i;
 
@@ -18,7 +18,7 @@ int main (void)
 			putchar(c);
 			putchar(i);
 
-			if ((c != '9') || (c == '9' && i !='9'))
+			if ((c != '9') || (c == '9' && i != '9'))
 			{
 				putchar(',');
 				putchar(' ');
