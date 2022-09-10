@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main prints 3 combination of numbers
+ * main - prints 3 combination of numbers
  *
  * Return: Always zero (success)
  */
