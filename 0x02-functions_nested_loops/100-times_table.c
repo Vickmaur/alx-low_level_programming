@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_times_table - prints the n times tabl * e starting from 08
  * @n: number of the times table
