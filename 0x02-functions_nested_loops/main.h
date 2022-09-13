@@ -1,1 +1,1 @@
-char *_putchar (void);
+char *sh (void);
