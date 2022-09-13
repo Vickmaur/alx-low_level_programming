@@ -3,7 +3,7 @@
  * print_times_table - prints the n times tabl * e starting from 08
  * @n: number of the times table
  */
-int print_times_table(int n)
+void print_times_table(int n)
 {
 int i, j, k;
 if (n > 0 && n <=15)
