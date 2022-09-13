@@ -6,5 +6,5 @@
  */
 void print_times_table(int n)
 {
-	return (n);
+	return (0);
 }
