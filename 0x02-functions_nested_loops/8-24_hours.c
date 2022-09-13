@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * jack_bauer - function that prints every minute of a day, 24 hour clock
  * h = hours, m = minutes
