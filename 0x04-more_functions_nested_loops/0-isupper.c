@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _isupper - checks if a character is upperca * se
  * @c: carriage integer variable
@@ -7,9 +6,10 @@
  */
 int _isupper(int c)
 {
-	if (c >= 65, && c <= 90)
+	if ((c >= 'A') && (c <= 'Z'))
 		{
 			return (1);
 		}
+
 	return (0);
 }
