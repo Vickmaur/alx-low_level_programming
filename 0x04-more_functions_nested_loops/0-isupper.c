@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _isupper - checks if a character is upperca * se
  * @c: carriage integer variable
@@ -11,5 +10,6 @@ int _isupper(int c)
 		{
 			return (1);
 		}
+
 	return (0);
 }
