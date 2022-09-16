@@ -1,6 +1,4 @@
 #include "main.h"
-#include <ctype.h>
-#include <stdio.h>
 
 /**
  * _isupper - checks if a character is upperc
