@@ -4,7 +4,7 @@
  * *strcpy - copies the string pointed to by s * rc
  * @dest: char type string
  * @src: char type string
- * Description: Copy the string pointed to by  * pointer 'src' to the buffer pointed to by ' * dest'
+ * Description: Copy the string pointed to by  * pointer 'src' to the buffe
  * Return: Pointer to 'dest'
  */
 char *_strcpy(char *dest, char *src)
@@ -14,7 +14,7 @@ char *_strcpy(char *dest, char *src)
 	do {
 		i++;
 		dest[i] = src[i];
-	} while (src [i] != '\0');
+	} while (src[i] != '\0');
 
 	return (dest);
 }
