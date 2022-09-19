@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *strcpy - copies the string pointed to by s * rc
+ * *_strcpy - copies the string pointed to by s * rc
  * @dest: char type string
  * @src: char type string
  * Description: Copy the string pointed to by  * pointer 'src' to the buffe
