@@ -5,7 +5,7 @@
  * @n: The given integer
  * Return: -1 if integer is less than 0,and 0  * if integer is 1
  */
-int factorial(int n);
+int factorial(int n)
 {
 	int result = n;
 
