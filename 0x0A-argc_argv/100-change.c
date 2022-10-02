@@ -5,9 +5,9 @@
 #include <stdbool.h>
 
 /**
- * coinConverter - Helper function that does all the mathematics
- * @i: Passed in variable from main for calculations
- * Return: The number of coins needed minimum for the passed in variable
+ * coinConverter - Helper function that does a * ll the mathematics
+ * @i: Passed in variable from main for calcul * ations
+ * Return: The number of coins needed minimum  * for the passed in variable
  */
 int coinConverter(int i)
 {
@@ -40,10 +40,10 @@ int coinConverter(int i)
 }
 
 /**
- * main - Takes in exactly one argument for minimum coin count
+ * main - Takes in exactly one argument for mi * nimum coin count
  * @argc: Number of command line arguments
  * @argv: Array name
- * Return: 0 if exactly 1 argument is passed into this program, 1 otherwise
+ * Return: 0 if exactly 1 argument is passed i * nto this program, 1 otherwise
  */
 int main(int argc, char *argv[])
 {
