@@ -1,25 +1,28 @@
-include "holberton.h"
+include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 char *_strdup(char *str)
 {
-  int i = 0, j, k = 0;
-  char *newStr = NULL;
+	char *cpy;
+	int index, len;
 
-  while (str[k] != '\0')
-    {
-      i++;
-      k++;
-    }
+	if (str == NULL)
+		return (NULL);
 
-  newStr = malloc(sizeof(char) * (i + 1));
+	for (index = 0; str[index]; index++)
+		len++;
+	cpy = malloc(sizeof(char) * (len + 1));
 
-  if (str == NULL)
-    return (NULL);
+	if (cpy == NULL)
+		return (NULL);
 
-  for (j = 0; j <= i; j++)
-    newStr[j] = str[j];
+	for (index = 0; str[index]; index++)
+	{
+		cpy[index] = str[index];
+	}
 
-  return (newStr);
+	cpy[len] = '\0';
+
+	return (cpy);
 }
